@@ -18,14 +18,3 @@ function whileLoop(n) {
     return 'done';
 }
 
-var num = 0
-
-function doWhileLoop(num) {
-  function incrementVariable() {
-  return num++;
- }
-}
-
-do {console.log("I run once regardless.");
-  } while (incrementVariable(0) < num);
-
