@@ -18,7 +18,7 @@ function whileLoop(n) {
     return 'done';
 }
 
-var i = 0
+var i = 10
 
 function doWhileLoop(num) {
   function incrementalVariable() {
