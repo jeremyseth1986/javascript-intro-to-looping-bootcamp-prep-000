@@ -18,7 +18,7 @@ function whileLoop(n) {
     return 'done';
 }
 
-var i = 10
+var i = 0
 
 function doWhileLoop(num) {
   function incrementalVariable() {
@@ -27,5 +27,6 @@ function doWhileLoop(num) {
   }
   do {
     console.log("I run once regardless")
-  } while (incrementalVariable() < num)
+  } while (incrementalVariable() < num);
+  doWhileLoop(15);
 }
